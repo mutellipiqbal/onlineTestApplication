@@ -1,0 +1,24 @@
+<div class="container mt-5">
+    <div class="card">
+    <h1 class="display-5 fw-bold">Welcome to quiz application</h1>
+    <p class="col-md-8 fs-4">
+        This quiz will contains 10 question. Each question holds 10 points. 
+
+    </p>
+    <h4>Rules:</h4>
+    <ol>
+        <li>Correct question gives you 10 points</li>
+        <li>Incorrect question reduces your 10 points</li>
+        <li>You will have 60 seconds for each question</li>
+        <li>Refreshing the page cause to restet the quiz</li>
+    </ol>
+    <h1 style="font-family: cursive; text-align:center">All the best</h1>
+    <div class="name col-md-4 my-3">
+        <label for="">Enter your name:</label>
+        <input #name type="text" class="form-control">
+        
+
+    </div>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Start quiz</button>
+    </div>
+</div>
